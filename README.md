@@ -2,7 +2,12 @@
 
 A feature-rich ASCII art generator with a modern interface and customization options.
 
-![ASCII Art Generator Screenshot](img/screenshot.png)
+![ASCII Art Generator Screenshot](img/sc0.png)
+
+---
+
+![Themes](img/sc1.png)
+
 
 ## What is this?
 
