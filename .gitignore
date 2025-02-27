@@ -1,0 +1,37 @@
+# PyInstaller build directories
+build/
+dist/
+!dist/ASCII Art Studio.exe
+*.spec
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+*.whl
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# User-specific files
+*.old
+*.bak
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+

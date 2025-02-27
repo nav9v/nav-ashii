@@ -1,0 +1,2 @@
+pyfiglet>=0.8.post1
+ttkthemes>=3.2.0
