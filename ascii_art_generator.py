@@ -78,6 +78,7 @@ class ASCIIArtStudio:
                 "#a1887f",  # Accent Color
                 "#bcaaa4",  # UI Text Color
                 "#8d6e63",  # Selection Background
+                "#3e2723",
                 ),
                 (
                     "🌅 Sunset",
@@ -339,11 +340,13 @@ class ASCIIArtStudio:
             background=self.primary_bg,
             foreground=self.text_color_ui,
             padding=(20, 8),
+            width=15,
         )
         self.style.map(
             "TNotebook.Tab",
             background=[("selected", self.accent_color)],
             foreground=[("selected", self.primary_bg)],
+            padding=[("selected", (20, 8))],
         )
 
         # Enhanced scrollbar styling
@@ -584,7 +587,7 @@ class ASCIIArtStudio:
         self.style_tab = ttk.Frame(self.notebook, padding=16, style="TFrame")
         self.notebook.add(self.text_tab, text="✏️ Text & Font")
         self.notebook.add(self.style_tab, text="🎨 Style & Themes")
-
+    
     def create_text_tab(self):
         # Input Section
         ttk.Label(self.text_tab, text="Input Text:").grid(
